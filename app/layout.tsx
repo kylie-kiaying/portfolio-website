@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/NavBar/Navbar";
+import Navbar from "@/components/Navbar/Navbar";
 import Hero from "@/components/Hero/Hero";
-import StarsCanvas from "@/components/Main/StarBackground";
-import CursorLightEffect from "@/components/Main/CursorLightEffect"
+import StarsCanvas from "@/components/main/StarBackground";
+import CursorLightEffect from "@/components/main/CursorLightEffect"
 
 const inter = Inter({ subsets: ["latin"] });
 
