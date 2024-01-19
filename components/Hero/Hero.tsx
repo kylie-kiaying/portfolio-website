@@ -10,7 +10,7 @@ const Hero = () => {
         </h2>
         <NameAnimation />
         <p className="text-gray-200 text-xl">
-          I'm a first year Computer Science student at Singapore Management University hoping to pursue a career in Software Engineering.
+          I am a first year Computer Science student at Singapore Management University hoping to pursue a career in Software Engineering.
           <br/>
           Feel free to drop me a message and connect!
         </p>
