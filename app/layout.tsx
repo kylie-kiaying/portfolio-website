@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
 import Experiences from "../components/Experiences/Experiences";
+import ContactMe from "../components/Socials/Socials";
 import StarsCanvas from "../components/Main/StarBackground";
 import CursorLightEffect from "../components/Main/CursorLightEffect";
 
@@ -25,6 +26,7 @@ export default function RootLayout({
         <Navbar />
         <Hero />
         <Experiences />
+        <ContactMe />
         <StarsCanvas />
         <CursorLightEffect />
         {children}
