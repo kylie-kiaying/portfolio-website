@@ -3,8 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
-import StarsCanvas from "../components/Main/StarBackground";
-import CursorLightEffect from "../components/Main/CursorLightEffect"
+import StarsBackground from "../components/Main/StarBackground";
+import CursorLightEffect from "../components/Main/CursorLightEffect";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-[#030014] overflow-y-scrol overflow-x-hidden`}>
         <Navbar />
         <Hero />
-        <StarsCanvas />
+        <StarsBackground />
         <CursorLightEffect />
         {children}
       </body>
