@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
+import Experiences from "../components/Experiences/Experiences";
 import StarsCanvas from "../components/Main/StarBackground";
 import CursorLightEffect from "../components/Main/CursorLightEffect";
 
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-[#030014] overflow-y-scrol overflow-x-hidden`}>
         <Navbar />
         <Hero />
+        <Experiences />
         <StarsCanvas />
         <CursorLightEffect />
         {children}
