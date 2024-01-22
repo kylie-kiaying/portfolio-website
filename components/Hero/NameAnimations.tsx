@@ -38,9 +38,12 @@ const Hero = (): JSX.Element => {
     <div className="grid min-h-[50vh] grid-cols-1 items-center">
       <div className="col-start-1">
         <h1 className="text-[clamp(3rem,15vmin,15rem)] font-extrabold leading-none tracking-tighter">
-          <span className="block mb-12 text-slate-300">
-            {renderLetters("KYLIE CHUA")}
-          </span>
+          <div className="block mb-12 text-slate-300">
+            {renderLetters("KYLIE ")}
+            <span className="whitespace-nowrap">
+              {renderLetters("CHUA")}
+            </span>
+          </div>
           <span className="-mt-[.2em] mb-12 block text-slate-500">
             {renderLetters("(Kia Ying)")}
           </span>
