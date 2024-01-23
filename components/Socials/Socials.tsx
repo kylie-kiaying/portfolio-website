@@ -3,7 +3,7 @@ import React from 'react';
 const ContactMe: React.FC = () => {
   return (
     <div className="p-8">
-      <h2 className="text-4xl text-white text-center font-bold mb-12">Socials</h2>
+      <h2 className="abosulte m-16 uppercase tracking-[20px] text-gray-500 font-bold text-center text-6xl">Socials</h2>
       <div className="flex flex-col items-center justify-center space-y-4">
         <a
           href="mailto:kylie.kiayingchua@gmail.com"
