@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <section className="text-white py-20">
       <div className="container mx-auto px-6">
-        <h2 className="text-center text-6xl font-bold text-gray-500 uppercase mb-16">Experience</h2>
+      <h2 className="abosulte m-16 uppercase tracking-[20px] text-gray-500 font-bold text-center text-6xl">Experiences</h2>
 
         <div className="bg-gray-800 bg-opacity-75 rounded-lg p-12 mb-12 shadow-xl transition-transform hover:scale-105">
           <div className="flex flex-col md:flex-row items-center gap-8">
