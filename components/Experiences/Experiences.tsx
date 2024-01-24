@@ -2,7 +2,7 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <section className="text-white py-20">
+    <section id="experience" className="text-white py-20">
       <div className="container mx-auto px-6">
       <h2 className="abosulte m-16 uppercase tracking-[20px] text-gray-500 font-bold text-center text-6xl">Experiences</h2>
 

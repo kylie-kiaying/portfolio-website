@@ -3,7 +3,7 @@ import NameAnimation from "@/components/Hero/NameAnimations";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col text-center md:flex-row items-start md:items-center">
+    <div id="overview" className="flex flex-col text-center md:flex-row items-start md:items-center">
       <div className="flex-1">
         <h2 className="text-8xl mt-40 font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-yellow-400">
           Hi, I am
