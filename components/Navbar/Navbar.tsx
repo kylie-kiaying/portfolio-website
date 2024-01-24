@@ -14,6 +14,7 @@ const Navbar: React.FC = () => {
                 {/* Links to Sections */}
                 <Link href="#overview"><span className="text-white mx-3 cursor-pointer">Overview</span></Link>
                 <Link href="#experience"><span className="text-white mx-3 cursor-pointer">Experience</span></Link>
+                <Link href="#skills"><span className="text-white mx-3 cursor-pointer">Skills</span></Link>
                 <Link href="#socials"><span className="text-white mx-3 cursor-pointer">Socials</span></Link>
             </div>
 
