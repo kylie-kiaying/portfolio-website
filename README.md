@@ -1,5 +1,5 @@
 # Kylie's Portfolio Site  
-Welcome to my portfolio site repo!
+Welcome to my portfolio site repo! 
 
 ## Tech Stack  
 - Next.js 
@@ -8,8 +8,19 @@ Welcome to my portfolio site repo!
 - GSAP
 - Vercel
 
+## Link to Site
+[Portfolio Website](https://portfolio-website-lake-seven.vercel.app/)
+
 ## Getting Started
-First, install the project dependencies:
+
+1. Clone the Repository
+
+```bash
+git clone https://github.com/kylie-kiaying/portfolio-website
+cd portfolio-website
+```
+
+2. Install the project dependencies:
 ```bash
 npm install
 # or
@@ -20,7 +31,7 @@ pnpm install
 bun install
 ```
 
-Then run the development server:
+3. Run the development server:
 
 ```bash
 npm run dev
@@ -40,14 +51,5 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Things to work on
 - Add projects
-- Add contact form
 - Clean up codebase
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
