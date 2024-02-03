@@ -4,8 +4,7 @@ const Experience = () => {
   return (
     <section id="experience" className="text-white py-20">
       <div className="container mx-auto px-6">
-      <h2 className="abosulte m-16 uppercase tracking-[20px] text-gray-500 font-bold text-center text-6xl">Experiences</h2>
-
+      <h2 className="relative m-4 md:m-16 uppercase tracking-widest md:tracking-[20px] text-gray-500 font-bold text-center text-3xl md:text-6xl">Experiences</h2>
         <div className="bg-gray-800 bg-opacity-75 rounded-lg p-12 mb-12 shadow-xl transition-transform hover:scale-105">
           <div className="flex flex-col md:flex-row items-center gap-8">
             <img src="../images/steng_icon.png" alt="ST Engineering" className="w-24 h-24 rounded-full" />
