@@ -12,7 +12,7 @@ import CursorLightEffect from "@/components/Main/CursorLightEffect";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kylie Portfolio Site",
+  title: "Kylie Chua",
   description: "My Portfolio Website",
 };
 
