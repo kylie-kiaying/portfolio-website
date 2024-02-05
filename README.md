@@ -9,7 +9,7 @@ Welcome to my portfolio site repo!
 - Vercel
 
 ## Link to Site
-[Portfolio Website](https://portfolio-website-lake-seven.vercel.app/)
+[Portfolio Website](https://www.kyliechua.com/)
 
 ## Getting Started
 
